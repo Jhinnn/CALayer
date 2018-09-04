@@ -26,4 +26,4 @@ layer.shadowOpacity = 0.6;
 ~~~
 
 
-![图片](/Users/pengpeng/Desktop/pic.png)
+![图片](https://github.com/Jhinnn/JXLayer/blob/master/layer.png)
