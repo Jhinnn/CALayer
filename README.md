@@ -6,6 +6,11 @@
 然后添加到某个已有的layer上，同样可以对layer调整大小、位置、透明度等。一般来说，layer可以有两种用途：一是对view相关属性的设置，包括圆角、阴影、
 边框等参数；二是实现对view的动画操控。 因此对一个view进行动画，本质上是对该view的.layer进行动画操纵。
 
+2.Q&A  
+
+Q:你给我解析清楚，都有了CALayer了，为什么还要UIView.  
+
+A:UIView继承自UIResponder，主要特点是可以响应触摸事件。而CALayer实际的图层内容管理。大家干的的事情不一样，是两个东西，大家的存在互不影响，理所当然。
 ~~~
 //1.创建CALayer
 CALayer *layer = [CALayer layer];
@@ -24,4 +29,4 @@ layer.shadowOpacity = 0.6;
 
 [self.view.layer addSublayer:layer];
 ~~~
-<img width="150" height="300" src="https://github.com/Jhinnn/JXLayer/blob/master/layer.png"/>
+<img width="150" height="350" src="https://github.com/Jhinnn/JXLayer/blob/master/layer.png"/>
