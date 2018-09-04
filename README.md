@@ -24,6 +24,4 @@ layer.shadowOpacity = 0.6;
 
 [self.view.layer addSublayer:layer];
 ~~~
-
-
-![图片](https://github.com/Jhinnn/JXLayer/blob/master/layer.png)
+<img width="150" height="300" src="https://github.com/Jhinnn/JXLayer/blob/master/layer.png"/>
